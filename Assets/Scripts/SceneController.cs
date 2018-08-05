@@ -5,6 +5,6 @@ public class SceneController : MonoBehaviour
 {
     public void LoadScene(string name)
     {
-        SceneManager.LoadSceneAsync(name, LoadSceneMode.Single);
+        GlobalCoroutineHandler.Instance.PlayCoroutineWithTime(() => SceneManager.LoadSceneAsync(name, LoadSceneMode.Single), 3);
     }
 }
