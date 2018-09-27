@@ -7,6 +7,7 @@ public class FishSpawner : MonoBehaviour
     public GameObject[] fishPrefabs;
     public Transform[] fishSpawnPoints;
     public Transform[] fishTargetPoints;
+    public Vector2 fishSpawnRate;
 
     private void Start()
     {
@@ -17,7 +18,7 @@ public class FishSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return (new WaitForSeconds(Random.Range(1, 2.5f)));
+            yield return (new WaitForSeconds(Random.Range(fishSpawnRate.x, fishSpawnRate.y)));
 
             int fishIndex = Random.Range(0, fishPrefabs.Length);
             int spawnPointIndex = Random.Range(0, fishSpawnPoints.Length);

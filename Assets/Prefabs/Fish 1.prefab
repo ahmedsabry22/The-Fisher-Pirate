@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95453144584717678}
+  alive: 1
 --- !u!114 &114988608119194976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,7 +135,6 @@ MonoBehaviour:
   Target: {fileID: 0}
   rigidbody: {fileID: 50532236545065164}
   speed: 5
-  targetPosition: {x: -6.04, y: -7.2, z: 0}
 --- !u!212 &212379032479242232
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -167,9 +167,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -1197618235
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2e59a8114ae3488408331f40e8f5090f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

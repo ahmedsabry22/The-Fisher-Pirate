@@ -33,7 +33,7 @@ public class FishMovement : MonoBehaviour
         {
             yield return (new WaitForSeconds(Random.Range(3f, 5f) / speed));
 
-            toRotation = Quaternion.Euler(new Vector3(0, 0, Random.Range(270, 360)));
+            toRotation = Quaternion.Euler(new Vector3(0, 0, Random.Range(90, 360)));
 
             //while (Vector3.Angle(transform.rotation.eulerAngles, toRotation.eulerAngles) >= 0)
 

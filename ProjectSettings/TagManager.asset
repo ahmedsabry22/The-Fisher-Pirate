@@ -45,3 +45,12 @@ TagManager:
   - name: Trails
     uniqueID: 1961637251
     locked: 0
+  - name: Sea Bottom
+    uniqueID: 3659612219
+    locked: 0
+  - name: Pirate
+    uniqueID: 714921339
+    locked: 0
+  - name: Fish
+    uniqueID: 3097349061
+    locked: 0
